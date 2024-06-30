@@ -101,7 +101,7 @@ body {
         right: 0;
         top: 0;
         background: var(--color-lgreen);
-        clip-path: circle(100px at 120% -20%);
+        clip-path: circle(100px at 150% -20%);
         pointer-events: none;
         transition: .6s ease-out;
     }
