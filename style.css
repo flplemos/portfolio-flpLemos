@@ -101,7 +101,7 @@ body {
         right: 0;
         top: 0;
         background: var(--color-lgreen);
-        clip-path: circle(100px at 90% -20%);
+        clip-path: circle(100px at 120% -20%);
         pointer-events: none;
         transition: .6s ease-out;
     }
@@ -134,7 +134,7 @@ body {
 }
     /* ATIVO */
     .navbar.active .navbar-links {
-        clip-path: circle(1400px at 90% -18%);
+        clip-path: circle(1400px at 90% -50%);
         pointer-events: all;
     }
 
