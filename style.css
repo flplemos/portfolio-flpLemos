@@ -375,6 +375,20 @@ body {
     .stacks-content h3 {
         font-size: 1vw;
     }
+
+    .person-name {
+        margin-bottom: 0px;
+        font-size: 8px;
+    }
+
+    .stacks {
+        margin-bottom: 4.5rem;
+    }
+
+    .person-content div h1 {
+        font-size: calc(1.5vw + 1.5rem)
+    }
+
 }
 
 .person-background {
