@@ -310,13 +310,13 @@ body {
     width: 20px;
     height: 20px;
     color: var(--color-lgreen);
-    font-size: 2.20vh;
+    font-size: 1rem;
 }
 
 @media (max-width: 376px){
 
     .stacks  li div:hover::after{
-        font-size: 1.20vh;
+        font-size: 1rem;
         top: calc(5.5vw + 1rem);
     }
 
@@ -348,8 +348,8 @@ body {
 @media (min-width: 377px) and (max-width: 768px){
 
     .stacks  li div:hover::after{
-        font-size: 1.20vh;
-        top: calc(5.5vw + 1rem);
+        font-size: 1rem;
+        top: calc(6.6vw + 1rem);
     }
     
 
@@ -375,14 +375,14 @@ body {
     }
 
     .stacks li img {
-        width: calc(3.2vw + .5rem);
+        width: calc(5vw + .5rem);
     }
 }
 
 @media (max-width: 1000px) and (orientation: landscape) {
 
     .stacks  li div:hover::after {
-        font-size: 1.3vw;
+        font-size: 1rem;
     }
 
     .stacks-content{
