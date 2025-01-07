@@ -247,7 +247,8 @@ body {
 }
 
 .person-name {
-    margin: 11rem;
+    margin-top: 70px;
+    margin-bottom: 40px;
     padding: 0px 20px;
 }
 
@@ -362,6 +363,7 @@ body {
 
     .stacks-content h3 {
         margin-left: 10px;
+        font-size: 1.5rem;
     }
 
     .stacks {
@@ -383,12 +385,16 @@ body {
         font-size: 1.3vw;
     }
 
+    .stacks-content{
+        padding: 0;
+    }
+
     .stacks-content h3 {
-        font-size: 1.3vw;
+        font-size: 1rem;
     }
 
     .person-name {
-        margin-bottom: 0px;
+        margin-bottom: 1rem;
         font-size: 8px;
     }
 
@@ -396,9 +402,9 @@ body {
         margin-bottom: 4.5rem;
     }
 
-    .person-content div h1 {
+    /* .person-content div h1 {
         font-size: calc(1.5vw + 1.5rem)
-    }
+    } */
 
 }
 
