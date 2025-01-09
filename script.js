@@ -67,3 +67,22 @@ window.addEventListener('scroll', () => {
         }
     }
 })
+
+document.addEventListener("DOMContentLoaded", () => {
+    const target = document.getElementById("smooth-appear");
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    target.classList.add("visible");
+                } else {
+                    target.classList.remove("visible"); // Remove a classe quando sair da viewport
+                }
+            });
+        },
+        { threshold: 0.1 } // Dispara quando 10% do elemento está visível
+    );
+
+    observer.observe(target);
+});

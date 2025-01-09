@@ -1099,3 +1099,14 @@ body {
         left: 100%;
     }
 }
+
+.hidden {
+    opacity: 0;
+    transform: translateY(50px); /* Aumenta o deslocamento para baixo */
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out; /* Tempo de transição */
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0); /* Retorna à posição original */
+}
